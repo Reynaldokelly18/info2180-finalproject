@@ -20,7 +20,7 @@ CREATE TABLE Contacts(
     email VARCHAR(255),
     telephone VARCHAR(55),
     company VARCHAR(55),
-    type VARCHAR(55),
+    type VARCHAR(55) CHECK (type IN ('Sales Lead', 'Support')),
     assigned_to INT,
     created_by INT,
     created_at DATETIME,
