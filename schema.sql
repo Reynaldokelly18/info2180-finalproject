@@ -40,4 +40,9 @@ CREATE TABLE Notes(
 
 
 INSERT INTO Users (firstname, lastname, password, email, role, created_at)
-VALUES ('Admin', 'User', '$2y$10$QhxaZ1avJDxuPnfJ5LSwgeeyAtuFlv0kOJx32SyqjxWa1rivxq0qu', 'admin@project2.com', 'admin', NOW());
+VALUES
+('Admin', 'User', '$2y$10$QhxaZ1avJDxuPnfJ5LSwgeeyAtuFlv0kOJx32SyqjxWa1rivxq0qu', 'admin@project2.com', 'admin', NOW());
+('Erin', 'Hannon', '$2y$10$HNwNv/ktleCuvS14N2uvN.iGx9wuQOvBo9LYi0ITpoXRuupc/NnSm', 'ehannon@project2.com', 'member', NOW()),
+('John', 'Doe', '$2y$10$iGUgndyPrqV6UoQNCIhnp.y3HQ83XR27LYusCkCQfXER6JW68Oddy', 'jdoe@project2.com', 'member', NOW()),
+('Mary', 'Jane', '$2y$10$kqfEAVnh/XEcf8SwDpRiZOREWKrb2LSaolJGkcQg8s7lrMCopYNkq', 'mjane@project2.com', 'member', NOW()),
+('Andy', 'Bernard', '$2y$10$0ey9bD9NwiZvLKsnim5tbukNembY8rfqmmOhGzUGGWe7RO0tgJLQy', 'abernard@project2.com', 'member', NOW());
