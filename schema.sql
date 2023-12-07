@@ -37,3 +37,7 @@ CREATE TABLE Notes(
     created_at DATETIME,
     FOREIGN KEY (created_by) REFERENCES Users(id)
 );
+
+
+INSERT INTO Users (firstname, lastname, password, email, role, created_at)
+VALUES ('Admin', 'User', '$2y$10$QhxaZ1avJDxuPnfJ5LSwgeeyAtuFlv0kOJx32SyqjxWa1rivxq0qu', 'admin@project2.com', 'admin', NOW());
