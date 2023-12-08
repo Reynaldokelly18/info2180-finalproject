@@ -35,6 +35,7 @@ CREATE TABLE Notes(
     comment TEXT,
     created_by INT,
     created_at DATETIME,
+    FOREIGN KEY (contact_id) REFERENCES Contacts(id);
     FOREIGN KEY (created_by) REFERENCES Users(id)
 );
 
