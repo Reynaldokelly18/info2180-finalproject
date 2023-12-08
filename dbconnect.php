@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=bugme", $username, $password);
+  $conn = new PDO("mysql:host=$servername;dbname=dolphin_crm", $username, $password);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 } catch(PDOException $error) {
