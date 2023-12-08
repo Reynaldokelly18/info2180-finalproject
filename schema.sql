@@ -46,3 +46,13 @@ VALUES
 ('John', 'Doe', '$2y$10$iGUgndyPrqV6UoQNCIhnp.y3HQ83XR27LYusCkCQfXER6JW68Oddy', 'jdoe@project2.com', 'member', NOW()),
 ('Mary', 'Jane', '$2y$10$kqfEAVnh/XEcf8SwDpRiZOREWKrb2LSaolJGkcQg8s7lrMCopYNkq', 'mjane@project2.com', 'member', NOW()),
 ('Andy', 'Bernard', '$2y$10$0ey9bD9NwiZvLKsnim5tbukNembY8rfqmmOhGzUGGWe7RO0tgJLQy', 'abernard@project2.com', 'member', NOW());
+
+
+INSERT INTO Contacts (title, firstname, lastname, email, telephone, company, type, assigned_to, created_by, created_at, updated_at)
+VALUES
+('Mr.', 'Michael', 'Scott', 'michael.scott@paper.co', '123-456-789', 'The Paper Company', 'Sales Lead', 2, 1, NOW(), NOW()),
+('Mr.', 'Dwight', 'Shrute', 'dwight.schrute@paper.co', '987-654-321', 'The Paper Company', 'Support', 2, 2, NOW(), NOW()),
+('Ms.', 'Pam', 'Beesley', 'pam.beesley@dunder.co', '234-567-890', 'Dunder Mifflin', 'Support', 3,1, NOW(), NOW()),
+('Ms.', 'Angela', 'Martin', 'angela.martin@vance.co', '345-678-901', 'Vance Refrigeration', 'Sales Lead', 4,3, NOW(), NOW()),
+('Ms.', 'Kelly', 'Kapoor', 'kelly.kapoor@vance.co', '456-789-012', 'Vance Refrigeration', 'Support', 5,3, NOW(), NOW()),
+('Mr.', 'Jim', 'Halpert', 'jim.halpert@dunder.co', '567-890-123', 'Dunder Mifflin', 'Sales Lead', 4,5, NOW(), NOW());
