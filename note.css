@@ -1,0 +1,73 @@
+img
+{
+    width: 30px;
+    height: auto;
+    float: left;
+}
+#notesHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-bottom-style: inset;
+    border-color: rgb(238, 238, 238);
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 15px;
+}
+  
+  
+  
+#addTextFooter
+{
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+    background:rgb(245, 243, 243);
+}
+
+#contactName
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#listing
+{
+    list-style-type: none;
+    white-space: pre-wrap;
+    margin-bottom: 5px;
+    font-size: 18px; 
+}
+
+
+#noteTextBox 
+{
+    width: 95%;
+    margin: 10px;
+    height: 60px;
+    resize: none;
+    font-size: 18px;
+}
+
+
+#notesBtn
+{   
+    background-color: rgb(68, 68, 193);
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+#notesTag
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+
