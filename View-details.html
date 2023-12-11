@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Details</title>
+    <link href = "view-details.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="new_contact.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Dolphin CRM</h1>
+    </header>
+    
+    <div class="container">
+      <div id="sidenav" class="sidenav">        
+        <a href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="#"><i class="fa fa-user-plus"></i>New Contact</a>
+        <a href="#"><i class = "fa fa-address-card"></i>Users</a>
+        <a href="#"><i class = "fa fa-sign-out"></i>Logout</a>
+      </div>
+      <div class="contact-details">
+        <div class = "contact-name">
+            <div class = "modification-info">
+                <h2>Name</h2>
+                <p>Created on (date) by (creator)</p>
+                <p>Updated on (date)</p>
+            </div>            
+            <div class="contact-buttons">
+                <button type="submit" class="btn" id="assign"><i class="fa fa-hand-paper-o"></i>Assign to me</button>
+                <button type="submit" class="btn" id="switch"><i class="fa fa-exchange"></i>Switch to Sales Lead</button>
+            </div>           
+
+        </div>
+        <div class = "info-card">
+            <div class="email">
+                <h3>Email</h3>
+                <h4>email@address.com</h4>
+            </div>
+            <div class="telephone">
+                <h3>Telephone</h3>
+                <h4>876999999</h4>
+            </div>
+            <div class="company">
+                <h3>Company</h3>
+                <h4>The Paper Company</h4>
+            </div>
+            <div class="assignment">
+                <h3>Assigned to</h3>
+                <h4>assigned person</h4>
+            </div>         
+            
+        </div>
+        <div class = "notes">
+            <h2><i class="fa fa-pencil-square-o"></i>Notes</h2>
+            <div class = "added-notes">
+                <h3>Name of note creator</h3>
+                <p>Reynaldo </p>
+                <h4>Date and time added</h4>
+            </div>
+            <div class = "add-note">
+                <h2>Add a note about Name</h2>
+                <form action="" method="post">
+                    <textarea id="note" name="note" maxlength="500" placeholder="Enter details here"></textarea>
+                    <button type="submit" class="btn" id="add-note-button">Add note</button>
+                </form>               
+
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
