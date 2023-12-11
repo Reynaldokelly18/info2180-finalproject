@@ -70,6 +70,7 @@ window.onload = function () {
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("show").innerHTML = this.responseText;
+                    alert("Saved!");
                 } else {
                     document.getElementById("show").innerHTML =
                         "There was a problem with the request";
